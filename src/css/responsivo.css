@@ -1,0 +1,155 @@
+@media(max-width: 800px) {
+    body {
+        background: url(../imagens/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
+        background-repeat: space;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .logo {
+        margin: 50px 50px;
+    }
+
+    .cartao img {
+        width: 350px;
+        height: 220px;
+
+    }
+
+    .info {
+        margin-top: 20px;
+        width: 250px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .info .titulo {
+        font-size: 20px;
+    }
+
+    .info .descricao {
+        font-size: 10px;
+    }
+
+    .info .register a {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .info .register {
+        width: 100px;
+
+    }
+
+    .rede-social {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+    body {
+        background: url(../imagens/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo {
+        margin: 20px 30px;
+    }
+
+    .cartao img {
+        width: 300px;
+        height: 210px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 200px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .rede-sociais {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1700px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main {
+        height: 700px;
+    }
+
+    .logo img {
+        width: 400px;
+        height: 200px;
+        margin: 20px 0 20px 150px;
+    }
+
+    .cartao img {
+        width: 1000px;
+        height: 700px;
+        margin-right: 50px;
+    }
+
+    .info {
+        width: 710px;
+    }
+
+    .info .titulo {
+        font-size: 45px;
+    }
+
+    .info .descricao {
+        font-size: 25px;
+    }
+
+    .info .register {
+        width: 300px;
+        height: 90px;
+        border-radius: 40px;
+        font-size: 30px;
+
+    }
+
+    .rede-sociais {
+        gap: 50px;
+        font-size: 60px;
+        margin-right: 100px;
+    }
+}

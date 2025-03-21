@@ -1,0 +1,72 @@
+body {
+    background: url(../imagens/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 50px 7px 7px 110px;
+}
+
+.cartao img {
+    padding: 30px;
+    height: 450px;
+}
+
+.info {
+    margin-top: 40px;
+    width: 485px;
+    padding: 10px;
+}
+
+.info .titulo {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.info .descricao {
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.info .register {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-size: 15px;
+}
+
+.info .register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.rede-sociais {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.rede-sociais a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.rede-sociais a:hover {
+    color: hsl(300, 69%, 71%);
+}
